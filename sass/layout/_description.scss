@@ -1,0 +1,38 @@
+.description {
+    display: flex;
+    align-items: center;
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
+    &__title{
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        color: var(--primarly-black-color);
+        margin-bottom: 10px;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        color: var(--primarly-gray-color);
+    }
+    &__soc {
+        width: 270px;
+        height: 120px;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    &__icon {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+
+
